@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping" assembly="ConsoleApp2" namespace="ConsoleApp2">
+	<class name="Product1" table="Products">
+		<id name="Id" column="Id">
+			<generator class="native" />
+		</id>
+		<property name="Name" column="Name" />
+		<property name="Price" column="Price" />
+	</class>
+</hibernate-mapping>
